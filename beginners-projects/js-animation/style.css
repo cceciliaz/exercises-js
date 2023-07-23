@@ -22,12 +22,12 @@ body{
 .cursor{
     z-index: 999;
     position: fixed;
-    background: #2696E8;
+    background: #415563;
     width: 20px;
     height: 20px;
     border-radius: 50%;
     pointer-events: none;
-    box-shadow: 0 0 20px #2696E8, 0 0 60px #2696E8, 0 0 100px #2696E8;
+    box-shadow: 0 0 20px #aee826, 0 0 60px #e82626, 0 0 100px #d126e8;
     transform: translate(-50%, -50%);
     animation: colors 5s infinite;
     display: none;
