@@ -73,3 +73,18 @@ console.log(x === "gato");
 
 // !== é o diferente
 console.log(x !== "gato");
+// 
+var corFavorita = "vermelho";
+switch(corFavorita){
+    // ele vai ativar o console se verdade
+    case "azul":
+    console.log("olhe para o ceu");
+    // break é para parar de ler o codigo se for verdadeiro
+    break;
+    case "amarelho":
+        console.log("olhe para baixo");
+    break;
+    // caso nenhuma seja verdadeira vai ativar o default
+    default:
+        console.log("fechar os olhos");
+}
