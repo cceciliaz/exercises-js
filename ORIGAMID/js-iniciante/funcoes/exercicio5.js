@@ -40,3 +40,27 @@ function nomeCompleto(nome, sobrenome){
 */
 
 // crie uma funcao que ferifique se o numero é par
+function isEven(number){
+    return number / 2;
+}
+
+// crie uma funcao que verifique o tipo de dado que ela retorna
+function tipoDeDado(dado){
+    return typeof dado;
+}
+
+// crie um afuncao que quando der click mostre seu nome completo
+addEventListener("click", function(){
+    console.log("cecilia oliveira");
+})
+
+// corrija o erro abaixo
+var totalPaises = 193;
+function precisoVisitar(paisesVisitados){
+    return ` ainda faltam ${totalPaises - paisesVisitados} paises para viajar `;
+}
+function jaVisitei(paisesVisitados){
+    return `ja visitei ${paisesVisitados} do total de ${totalPaises} paises`;
+}
+precisoVisitar(20);
+
