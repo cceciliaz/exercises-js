@@ -40,3 +40,47 @@ o segundo é uma funcao anonima funcoes anonimas sao as que o nome nao é defini
 addEventListener("click", function(){
     console.log("oi vc ativou a funcao");
 });
+
+// 
+
+function terceiraIdade(idade){
+    if(typeof idade !== "number"){
+        return "pfv coloque um numero";
+    } else if(idade >= 60){
+        return true;
+    } else {
+        return false;
+    }
+}
+
+/* escopo variaveis e funcoes definidas dentro de um bloco {} nao sao visiveis fora dele
+
+function taltaVisitar(paiseVisitados){
+    var totalPaises = 193;
+    retur "falta visitar  ${totalPaises - paisesVisitados} paises";
+}
+console.log(totalPaises);
+nao vai mostrar o console pois a variavel esta 
+dentro do escopo
+
+*/
+
+function FaltaVisitar (paisesVisitados){
+    var totalPaises = 193
+    return 'falta visitar $ {totalPaises- paisesVisitados} paises';
+}
+
+// pode colocar funcao dentro de funcao
+var profissao = "atleta";
+function dados (){
+    var nome = "cecilia";
+    var idade = 20;
+    function outrosDados(){
+    var endereco = "rio grande do norte";
+    var idade = 21;
+    return `${nome}, ${idade}, ${endereco}, ${profissao}`;
+    }
+return outrosDados();
+}
+console.log(dados());
+
