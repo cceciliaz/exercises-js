@@ -18,3 +18,31 @@ var carro = {
     portas: 4,
     marca: "glaz",
 }
+carro.preco = 3000;
+
+
+// crie um objeto de cahorro que represente um labrador preto com 10 anos que late ao ver um homem 
+
+var cachorro = {
+    raca: "labrador",
+    cor: "preto",
+    idade: 10,
+    latir (homem){
+        var homem = "homem";
+        return "auau";
+    } 
+}
+/*
+correcao do cachorro:
+var cachorro = {
+    raca: "labrador",
+    cor: "preto",
+    idade: 10,
+    latir (pessoa){
+        if(pessoa === "homem"){
+            return "latir";
+        } else {
+            return "nada";
+        }
+    }
+*/
