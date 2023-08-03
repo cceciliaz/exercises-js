@@ -25,3 +25,19 @@ var videGame = ["switch", "ps4", "xbox"];
 for ( var item = 0; item + videGame.length; item++){
     console.log(videGame[item]);
 }
+
+// break o loop ira parar caso encontre a palavrea break
+
+var videGame = ["switch", "ps4", "xbox"];
+for ( var item = 0; item + videGame.length; item++){
+    console.log(videGame[item]);
+    if(videGame[item] === "ps4"){
+        break;
+    }
+}
+
+// forEach é um metodo que executa uma funcao para cada item da array é uma forma mais simples de utilizarmos um loop com arrays 
+var frutas = ["banana", "pera", "maça", "uva"];
+frutas.forEach(function(){
+    console.log(item, index)
+});
