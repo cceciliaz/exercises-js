@@ -47,5 +47,13 @@ const data = {
     mes: "dezembro",
     ano: 2018,
 }
-data.dia = 28 //funciona
+data.dia = 28; //funciona
 data = "janeiro"; //erro
+
+
+// let mantem o escopo no bloco imoede a redeclaracao mas permite a modificacao do valor da variavel
+let ano;
+ano = 2019;
+ano++;
+console.log(ano);
+let ano = 2020; // erro redeclarou o valor
