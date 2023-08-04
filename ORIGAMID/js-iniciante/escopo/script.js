@@ -35,3 +35,17 @@ if(true){
     console.log(mes);
 }
 console.log(mes);
+
+
+// const mantem o escopo no bloco impede a redeclaracao e impede modificacao do valor da variavel evitando bug no codigo
+const mes1 = "dezembro1";
+mes1 = "janeiro"; //erro tentou modificar o valor
+const semana; // erro declarou sem valor
+
+const data = {
+    dia: 29,
+    mes: "dezembro",
+    ano: 2018,
+}
+data.dia = 28 //funciona
+data = "janeiro"; //erro
