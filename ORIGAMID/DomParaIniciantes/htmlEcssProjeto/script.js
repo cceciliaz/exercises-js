@@ -13,7 +13,7 @@ const ul = document.getElementsByTagName("ul");
 // Retorna o primeiro elemento
 console.log(gridSection[0]);
 
-/
+/*
 querySelector retorna o primeiro elemento que combina com o seu seletor css
 
 const animais = document.querySelector(".animais");
@@ -24,5 +24,6 @@ const primeiroUl = document.querySelector("ul");
 
 buscar dentro do ul apenas
 const navItem = primeiroUl.querySelector("li");
+*/
 
 
