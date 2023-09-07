@@ -1,14 +1,16 @@
-// retorne a url da atual utilizando o objeto window
-const hrefPagina = window.location.href;
-console.log.(hrefPagina);
+// retorne a url da pagina atual do objeto windom
+const paginaAtual = window.location.href
+console.log(paginaAtual);
 
-//seleciona o primeiro elemento da pagina que possua a classe ativa
-const elementoAtiva  = document.querySelector(".ativa");
+// selecionar o primeiro elemento da pagina que possui a pagina ativa... 
+const selecionartag = document.querySelector(".ativa");
+console.log(selecionartag);
+//esse querySelector ele seleciona o primeiro elemento que ele achar com a tag
 
 //retorne a linguagem do navegador
-const linguagem = window.navigator.language;
-console.log(linguagem);
+const linguagemAtual = window.navigator.language
+console.log(linguagemAtual);
 
-//retorne a largura da janela
-const windowWidth = window.innerWidth;
-console.log(windowWidth);
+//retorne a aultura da janela
+const aulturaJanela = window.innerHeight
+console.log(aulturaJanela);
