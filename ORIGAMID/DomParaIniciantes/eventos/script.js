@@ -56,7 +56,8 @@ h1.addEventListener("click", callback);
 h1.addEventListener("mouseenter", callback); // se passar o mouse por cima ele vai ser ativado
 window.addEventListener("scroll", callback); // se der o scroll na pagina ele vai ser ativado 
 window.addEventListener("resize", callback); // qunado meche na janela ele vai ser ativado
-window.addEventListener("keydown", callback); // se apertar em alguma tecla ele vai ser ativado e a tecla que voce clicou sera mostrada tambem
+window.addEventListener(PRATICAR COM PROJETO BOOSTRAPkeydown", callback); 
+// se apertar em alguma tecla ele vai ser ativado e a tecla que voce clicou sera mostrada tambem
 
 
 
