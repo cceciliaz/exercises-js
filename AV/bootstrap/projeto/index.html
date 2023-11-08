@@ -32,10 +32,10 @@
                 <div class="col-md-7 col-sm-12">
                     <h2>sobre nos</h2>
                     <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis sint accusantium eum numquam quis. Quas, explicabo suscipit odit sapiente alias sint quibusdam culpa fugiat maxime, repellat esse eveniet quaerat voluptatum.
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis sint accusantium eum Lorem ipsum dolor sit amet consectetur
                     </p>
                     <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis sint accusantium eum numquam quis. Quas, explicabo suscipit odit sapiente alias sint quibusdam culpa fugiat maxime, repellat esse eveniet quaerat voluptatum.
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis sint accusantium eum numquam quis. Quas, explicabo suscipit odit 
                     </p>
                     <a href="" class="btn btn-lg btn-sucess">enter</a>
                 </div>
@@ -50,14 +50,15 @@
         <div class="container">
             <div class="row">
                 <div class="col">
+                    <h2>produtos</h2>
                     <div class="card">
                         <img src="img/pexels-josh-sorenson-1714208.jpg" alt="" class="img-fluid">
                         <div class="card-body">
                             <h5 class="card-title">lorem ipsum dolor</h5>
                             <p class="card-text">
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta distinctio obcaecati officia quam corrupti cum at ex quo facere provident reiciendis, incidunt tempore? Rerum, nam labore dolorem sequi veniam debitis.
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta distinctio obcaecati officia quam corrupti cum at
                             </p>
-                            <a href="produto-1" class="btn btn-primary">ver produto</a>
+                            <a  data-bs-toggle="modal" data-bs-target="#modal-1" class="btn btn-primary">ver produto</a>
                         </div>
                     </div>
 
@@ -67,7 +68,7 @@
                         <div class="card-body">
                             <h5 class="card-title">lorem ipsum dolor</h5>
                             <p class="card-text">
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta distinctio obcaecati officia quam corrupti cum at ex quo facere provident reiciendis, incidunt tempore? Rerum, nam labore dolorem sequi veniam debitis.
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta distinctio obcaecati officia quam corrupti cum at
                             </p>
                             <a href="produto-2" class="btn btn-primary">ver produto</a>
                         </div>
@@ -79,7 +80,7 @@
                         <div class="card-body">
                             <h5 class="card-title">lorem ipsum dolor</h5>  
                             <p class="card-text">
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta distinctio obcaecati officia quam corrupti cum at ex quo facere provident reiciendis, incidunt tempore? Rerum, nam labore dolorem sequi veniam debitis.
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta distinctio obcaecati officia quam corrupti cum at
                             </p>
                             <a href="produto-3" class="btn btn-primary">ver produto</a>
                         </div>
@@ -116,7 +117,48 @@
             </div>
         </div>
     </section>
-    <!-- 10:30 -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <div class="modal fade" id="modal-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">produto 1</h5>
+                    <button class="btn-close" data-bs-dismiss="modal" aria-label="close">
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <h6>confira o tamanho e os preço</h6>
+                    <table class="table table-hover table-striped">
+                        <thead>
+                            <tr>
+                                <th>tamanho</th>
+                                <th>valor</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>p</td>
+                            <td>R$ 100</td>
+                        </tr>
+                        <tr>
+                            <td>m</td>
+                            <td>R$ 200</td>
+                        </tr>
+                        <tr>
+                            <td>g</td>
+                            <td>R$ 400</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"> close
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
