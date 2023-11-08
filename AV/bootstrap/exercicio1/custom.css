@@ -1,0 +1,22 @@
+body{
+    background: #EAC600;
+    color: #000;
+}
+section{
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+}
+input,
+textarea{
+    margin-bottom: 1rem;
+}
+.card{
+    background: #B8A225;
+    width: 32%;
+    float: left;
+    margin: 5px;
+}
+.btn{
+    background: #857935;
+    color: #fff;
+}
