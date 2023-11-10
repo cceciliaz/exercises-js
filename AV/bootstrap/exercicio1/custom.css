@@ -1,5 +1,15 @@
 body{
-    background: #EAC600;
+    /* background: #EAC600; */
+    color: #000;
+}
+.nav-link{
+    color: #fff;
+    background: #857935;
+    margin: 4px;
+    border-radius: 5px;
+}
+.nav-link:hover{
+    background: #d5c45e;
     color: #000;
 }
 section{
@@ -12,11 +22,21 @@ textarea{
 }
 .card{
     background: #B8A225;
-    width: 32%;
-    float: left;
+    /* width: 32%; */
+    /* float: left; */
     margin: 5px;
+}
+.card-body h5{
+    font-size: 1.7rem;
+    font-weight: bold;
 }
 .btn{
     background: #857935;
     color: #fff;
+    font-weight: 600;
+    /* font-size: 25px; */
+}
+.btn:hover{
+    color: #000;
+    background: #d0bf5d;
 }
