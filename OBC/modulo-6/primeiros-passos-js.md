@@ -71,4 +71,10 @@
 --
 
 
-# recursos nativos do browser
+# declarando variaveis
+- declaracao de variavel LET: com let da para atribuir um novo valor sobre ela 
+- declaracao de variavel CONST: com const nao da para atribuir um novo valor nela, ela so recebe um por variavel
+- declaracao de variavel VAR: ??
+- pode-se declarar variavel e nao atribuir nenhum valor nela, ela nela se retornar undefined
+- nas declaracoes de variavel pode se teronar um valor, no arlert e no console.log nao se retorna nada mas se usar o confirm e o usuario apertar em cancelar o valor que vaii retornar é false e caso o contrario ele retorna true
+- no prompt tambem se retorna um valor, no caso ele retorna o valor que o usuario coloca dentro do input uma string ou um number e armazena na variavel que foi declarada, porem se o usuario escolher cancelar o prompt o valor que retornara sera null
