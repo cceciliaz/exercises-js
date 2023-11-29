@@ -67,4 +67,21 @@ if(velocidade2 < 100){
 ----
 
 
-#
+# conhecendo o switch
+- estrutura de controle de fluxo
+- avalia uma expressao
+- procura a melhor clausula (caso) que entende ao resultado 
+    ° os casos dentro do switch sao chamados de "cases"
+
+let velocidade = 80 
+switch(velocidade * 2){
+    case 100:
+        console.log("velocidade 100km")
+        break
+    case 160:
+        console.log("velocidade 160km")
+        break
+    default:
+        console.log("velocidade nao identificada")
+}
+<!-- esta é a estrutura do switch -->
