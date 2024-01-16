@@ -41,6 +41,7 @@ function printSpaceshipList(spaceships){
 
 // erro
 
+
 let hitchedSpaceships = []
 let chosenOption
 
