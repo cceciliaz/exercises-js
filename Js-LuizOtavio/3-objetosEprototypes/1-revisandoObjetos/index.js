@@ -37,3 +37,17 @@ const pessoa2 = {
     sobrenome: "oliveira"
 };
 console.log(pessoa1, pessoa2);
+
+
+
+// ---------------
+
+
+
+function Pessoa3(nome, sobrenome){
+    this.nome = nome;
+    this.sobrenome = sobrenome;
+}
+// {} <- this -> this
+const p1 = new Pessoa3("pedro", "miranda");
+const p2 = new Pessoa3("a", "b");
