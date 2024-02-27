@@ -1,0 +1,21 @@
+body{
+    background: rgb(13, 51, 86);
+    display: flex;
+    justify-content: center;
+}
+.container{
+    height: 300px;
+    width: 500px;
+    background: #ff3;
+    border-radius: 20px;
+    text-align: center;
+}
+h1{
+    font-size: 40px;
+}
+a{
+    padding: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 25px;
+}
