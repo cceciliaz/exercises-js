@@ -12,15 +12,25 @@
 
 - git checkout -b dev (nome da branch): é usado para criar uma copia da branch main(principal) para a branch dev(onde posso)
 
+- git fetch --all: vai verificar se nao tem nenhuma alteração na branch master
+
+- git merge main/master:
+
+- git flow init:
 
 # gitFlow
 
 são ramificações / versões paralelas
-- main / master (vai para produção, 
-quando o projeto é finalizado)
+
+- main / master (vai para produção,
+  quando o projeto é finalizado)
 
 - develop
 - DOD, definition of done: critério de aceite
 <!-- (são usadas para os desenvolvedores mostrarem suas alterações como um ambiente para teste dai o pessoal decide se vai passar daqui vai para master) -->
 
 - versionamento 0.1.10 (aqui é onde é feita suas alterações)
+
+# merge
+
+mescla de branchs
