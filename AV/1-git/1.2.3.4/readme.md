@@ -25,4 +25,12 @@ branchs em português é ramificações, são versões alternativas do seu códi
 -
 
 ####
+
 - git checkout -b develop(nome da branch que vai ser criada): com esse comando no git, é criada uma cópia da branch main para a branch dev
+- git fetch --all: esse comando verifica se nao tem alteração no repositorio no caso no github
+
+#### merge
+
+mescla de branchs
+o merge, em termos simples, é a ação de combinar alterações de diferentes branches (ramificações) do código em uma única branch.
+- git merge main/master:
