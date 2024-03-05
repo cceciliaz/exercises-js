@@ -1,26 +1,36 @@
-# comandos básicos do git
+## commits basicos
+
+informação de alteração
+após testado todo código:
 
 - git status: é usado para verificar o estado atual do seu repositório.
-
-- git add \*: é usado para adicionar todas as alterações pendentes no diretório de trabalho ao índice do Git.
-
-- git commit -m "mensagem do commite".
-
-- git push: é usado para enviar (ou "empurrar") as alterações locais do seu repositório Git para um repositório remoto. Especificamente, ele atualiza as referências remotas (ramos) com as alterações que você fez localmente.
-
+- git add \*: para adicionar as alterações no diretório de trabalho ao índice do Git.
+- git commit -m "mensagem sobre oque foi alterado": serve para salvar as alterações no repositório git
+  -git push: é usado para enviar (ou "empurrar") as alterações locais do seu repositório Git para um repositório remoto. Especificamente, ele atualiza as referências remotas (ramos) com as alterações que você fez localmente.
 - git pull: é usado para atualizar seu repositório local com as alterações que foram feitas no repositório remoto.
 
-- git checkout -b dev (nome da branch): é usado para criar uma copia da branch main(principal) para a branch dev(onde posso)
+## gitFlow
 
+fluxo do git
 
-# gitFlow
+### branchs
 
-são ramificações / versões paralelas
-- main / master (vai para produção, 
-quando o projeto é finalizado)
+branchs em português é ramificações, são versões alternativas do seu código-fonte. Eles permitem que você trabalhe em diferentes recursos, correções de bugs ou experimentos sem interferir diretamente no código principal, conhecido como "branch principal" ou "master" (ou "main" em versões mais recentes do Git).
 
-- develop
-- DOD, definition of done: critério de aceite
-<!-- (são usadas para os desenvolvedores mostrarem suas alterações como um ambiente para teste dai o pessoal decide se vai passar daqui vai para master) -->
+- DOD: depois que todos os termos forem aceitos pelo cliente ou time, poderá enviar para branch master/main.
 
-- versionamento 0.1.10 (aqui é onde é feita suas alterações)
+- branch develop: é uma cópia da master/main, nessa branch é como um servidor de teste
+- versiomamento 0.1.10
+<!-- o primeiro 0 é chamado de versão beta, o segundo digito é para alterações que sao muito importantes para o codigo, o terceiro são para bugs-->
+-
+
+####
+
+- git checkout -b develop(nome da branch que vai ser criada): com esse comando no git, é criada uma cópia da branch main para a branch dev
+- git fetch --all: esse comando verifica se nao tem alteração no repositorio no caso no github
+
+#### merge
+
+mescla de branchs
+o merge, em termos simples, é a ação de combinar alterações de diferentes branches (ramificações) do código em uma única branch.
+- git merge main/master:
