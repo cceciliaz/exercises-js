@@ -1,14 +1,4 @@
 ## commits basicos
-
-informação de alteração
-após testado todo código:
-
-- git status: é usado para verificar o estado atual do seu repositório.
-- git add \*: para adicionar as alterações no diretório de trabalho ao índice do Git.
-- git commit -m "mensagem sobre oque foi alterado": serve para salvar as alterações no repositório git
-  -git push: é usado para enviar (ou "empurrar") as alterações locais do seu repositório Git para um repositório remoto. Especificamente, ele atualiza as referências remotas (ramos) com as alterações que você fez localmente.
-- git pull: é usado para atualizar seu repositório local com as alterações que foram feitas no repositório remoto.
-
 ## gitFlow
 
 fluxo do git
