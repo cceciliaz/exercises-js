@@ -1,25 +1,35 @@
-# comandos básicos do git
+## commits basicos
+## gitFlow
 
-- git status: é usado para verificar o estado atual do seu repositório.
+fluxo do git
 
-- git add \*: é usado para adicionar todas as alterações pendentes no diretório de trabalho ao índice do Git.
+### branchs
 
-- git commit -m "mensagem do commite".
+branchs em português é ramificações, são versões alternativas do seu código-fonte. Eles permitem que você trabalhe em diferentes recursos, correções de bugs ou experimentos sem interferir diretamente no código principal, conhecido como "branch principal" ou "master" (ou "main" em versões mais recentes do Git).
 
-- git push: é usado para enviar (ou "empurrar") as alterações locais do seu repositório Git para um repositório remoto. Especificamente, ele atualiza as referências remotas (ramos) com as alterações que você fez localmente.
+- DOD: depois que todos os termos forem aceitos pelo cliente ou time, poderá enviar para branch master/main.
 
-- git pull: é usado para atualizar seu repositório local com as alterações que foram feitas no repositório remoto.
+- branch develop: é uma cópia da master/main, nessa branch é como um servidor de teste
+- versiomamento 0.1.10
+<!-- o primeiro 0 é chamado de versão beta, o segundo digito é para alterações que sao muito importantes para o codigo, o terceiro são para bugs-->
+-
 
-- git checkout -b dev (nome da branch): é usado para criar uma copia da branch main(principal) para a branch dev(onde posso)
+####
 
+<<<<<<< HEAD
 - git fetch --all: vai verificar se nao tem nenhuma alteração na branch master
 
 - git merge main/master:
 
 - git flow init:
+=======
+- git checkout -b develop(nome da branch que vai ser criada): com esse comando no git, é criada uma cópia da branch main para a branch dev
+- git fetch --all: esse comando verifica se nao tem alteração no repositorio no caso no github
+>>>>>>> 0a28ec62a3b6225ca404725771c867826e1e1f34
 
-# gitFlow
+#### merge
 
+<<<<<<< HEAD
 são ramificações / versões paralelas
 
 - main / master (vai para produção,
@@ -34,3 +44,8 @@ são ramificações / versões paralelas
 # merge
 
 mescla de branchs
+=======
+mescla de branchs
+o merge, em termos simples, é a ação de combinar alterações de diferentes branches (ramificações) do código em uma única branch.
+- git merge main/master:
+>>>>>>> 0a28ec62a3b6225ca404725771c867826e1e1f34
