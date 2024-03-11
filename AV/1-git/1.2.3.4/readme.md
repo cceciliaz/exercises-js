@@ -16,11 +16,36 @@ branchs em português é ramificações, são versões alternativas do seu códi
 
 ####
 
+<<<<<<< HEAD
+- git fetch --all: vai verificar se nao tem nenhuma alteração na branch master
+
+- git merge main/master:
+
+- git flow init:
+=======
 - git checkout -b develop(nome da branch que vai ser criada): com esse comando no git, é criada uma cópia da branch main para a branch dev
 - git fetch --all: esse comando verifica se nao tem alteração no repositorio no caso no github
+>>>>>>> 0a28ec62a3b6225ca404725771c867826e1e1f34
 
 #### merge
 
+<<<<<<< HEAD
+são ramificações / versões paralelas
+
+- main / master (vai para produção,
+  quando o projeto é finalizado)
+
+- develop
+- DOD, definition of done: critério de aceite
+<!-- (são usadas para os desenvolvedores mostrarem suas alterações como um ambiente para teste dai o pessoal decide se vai passar daqui vai para master) -->
+
+- versionamento 0.1.10 (aqui é onde é feita suas alterações)
+
+# merge
+
+mescla de branchs
+=======
 mescla de branchs
 o merge, em termos simples, é a ação de combinar alterações de diferentes branches (ramificações) do código em uma única branch.
 - git merge main/master:
+>>>>>>> 0a28ec62a3b6225ca404725771c867826e1e1f34
